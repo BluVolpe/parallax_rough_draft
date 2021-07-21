@@ -4,7 +4,6 @@
   box-sizing: border-box;
   color: #fff;
   font-family: "Poppins", sans-serif;
-  
 }
 
 nav {
@@ -18,20 +17,38 @@ nav {
 
 .container {
   height: 100vh;
-  /* background: black; */
 }
 
 .container img {
-  width: 100%;
   position: absolute;
+  width: 101%;
   height: 110vh;
   object-fit: cover;
+}
+
+.blueboxB {
+  z-index: -5;
+}
+
+.bluebox3 {
+  z-index: -4;
+}
+
+.bluebox2 {
+  z-index: -3;
+}
+
+.bluebox1 {
+  z-index: -2;
+}
+
+.bluebox0 {
   z-index: -1;
 }
 
 .main-title {
   position: absolute;
-  top: 30%;
+  top: 20%;
   left: 40%;
   font-size: 6rem;
   transform: translate(-50%, -50%);
@@ -39,7 +56,7 @@ nav {
 
 .content {
   width: 100%;
-  background: black;
+  background: #1C5F9D;
   min-height: 100vh;
   z-index: 2;
   position: absolute;

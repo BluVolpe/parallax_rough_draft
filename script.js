@@ -2,9 +2,11 @@ let controller = new ScrollMagic.Controller();
 let timeline = new TimelineMax();
 
 timeline
-    .to(".rock", 5, {y: -400})
-    .to(".girl", 5, {y: -250}, "-=5")
-    .to(".bg1", 5, {y:100}, "-=5")
+    .to(".bluebox0", 5, {y: -1050})
+    .to(".bluebox1", 5, {y: -700}, "-=5")
+    .to(".bluebox2", 5, {y: -600}, "-=5")
+    .to(".bluebox3", 5, {y: -250}, "-=5")
+    .to(".blueboxB", 5, {y:00}, "-=5")
     .to(".content", 5, {top:"3%"}, "-=5")
     .fromTo(".content-images", {opacity:0}, {opacity:1, duration:1})
 
