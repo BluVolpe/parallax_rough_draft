@@ -7,12 +7,33 @@
 }
 
 nav {
+  z-index: 50;
   position: absolute;
   width: 100%;
   display: flex;
   padding: 3rem 10rem;
   justify-content: space-between;
-  background: lightblue;
+  background: #333;
+  
+}
+
+.myName {
+  font-size: 40px;
+}
+
+.floatRight {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navButton {
+  position: relative;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 0px;
+  padding-top: 0px;
+  top: 60%;
+  
 }
 
 .container {
