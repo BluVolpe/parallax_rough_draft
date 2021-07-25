@@ -2,12 +2,14 @@ let controller = new ScrollMagic.Controller();
 let timeline = new TimelineMax();
 
 timeline
-  .to(".bluebox0", 5, { y: -800 })
-  .to(".bluebox1", 5, { y: -600 }, "-=5")
-  .to(".bluebox2", 5, { y: -500 }, "-=5")
+  .to(".bluebox0", 5, { y: -600 })
+  .to(".bluebox1", 5, { y: -450 }, "-=5")
+  .to(".bluebox2", 5, { y: -400 }, "-=5")
   .to(".bluebox3", 5, { y: -250 }, "-=5")
   .to(".blueboxB", 5, { y: 00 }, "-=5")
+  .to("#welcome", 5, {y:100}, "-=5")
   .to(".content", 5, { top: "3%" }, "-=5")
+  
   .fromTo(".content-images", { opacity: 0 }, { opacity: 1, duration: 1 });
 
 let scene = new ScrollMagic.Scene({
