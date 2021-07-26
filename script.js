@@ -10,7 +10,7 @@ timeline
   .to("#welcome", 5, {y:100}, "-=5")
   .to(".content", 5, { top: "3%" }, "-=5")
   
-  .fromTo(".content-images", { opacity: 0 }, { opacity: 1, duration: 1 });
+//   .fromTo(".content-images", { opacity: 0 }, { opacity: 1, duration: 1 });
 
 let scene = new ScrollMagic.Scene({
   triggerElement: "section",
